@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-2</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--slick-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!--Animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-fixed">
+        <h1 class="header-logo">
+          <img src="image/sample_logo.png" alt="サンプルロゴ" />
+        </h1>
+        <button class="nav-btn" id="nav-btn" type="button" aria-label="メニュー"><span></span><span></span><span></span></button>
+      </div>
+      <div class="nav" id="nav">
+        <nav class="nav-wrap">
+          <ul class="nav-list">
+            <li class="item"><a href="#">来店予約</a></li>
+            <li class="item"><a href="#">配達注文</a></li>
+            <li class="item"><a href="#">よくある質問</a></li>
+            <li class="item"><a href="#">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="top">
+        <h2 class="top-title">トップタイトル<br />トップタイトル</h2>
+      </div>
+      <section>
+        <div class="features cmn-section -black">
+          <div class="inner wow animate__animated animate__fadeIn">
+          <h2 class="cmn-title">
+              <span class="main">当店の特徴</span>
+              <span class="sub">features</span>
+          </h2><!--sectionの中にはh2タグを入れなければいけない。hタグの中にはpタグやdivタグをいれてはいけない-->
+          <div class="features-contents">
+              <ul class="features-list">
+                  <li class="features-item wow animate__animated animate__fadeIn">
+                    <div class="text">
+                        <div class="title">当店独自のルートで<br>調達する最高級の食材</div>
+                        <p class="description">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <div class="button"><a href="#">産地の詳細</a></div>
+                    </div>
+                    <div class="image"><img src="/image/high_quality.jpg" alt=""></div>
+                  </li>
+                  <li class="features-item wow animate__animated animate__fadeIn">
+                    <div class="text">
+                        <div class="title">素材の旨味を最大限に引き出す。<br>イタリア仕込みの調理法。</div>
+                        <p class="description">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <div class="button"><a href="#">コース料理の詳細</a></div>
+                    </div>
+                    <div class="image"><img src="/image/cooking.jpg" alt=""></div>
+                  </li>
+                  <li class="features-item wow animate__animated animate__fadeIn">
+                    <div class="text">
+                        <div class="title">配達も承ります。<br>お家でも変わらない素材の味を。</div>
+                        <p class="description">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <div class="button"><a href="#">配達メニュー</a></div>
+                    </div>
+                    <div class="image"><img src="/image/burger_delivery.jpg" alt=""></div>
+                  </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+      </section>
+      <section>
+          <div class="plan cmn-section -black">
+            <h2 class="cmn-title">
+                <span class="main">おすすめメニュー</span>
+                <span class="sub">recommended plan</span>
+            </h2>
+            <div class="rec service">
+                <div class="rec-slick rec-list" id="rec-slick">
+                    <div class="rec-item">
+                        <div class="text">
+                            <div class="title">オススメ１</div>
+                            <div class="price">価格：<span>4800円</span></div>
+                        </div>
+                        <div class="image"><img src="image/rec-01.jpg" alt=""></div>
+                    </div>
+                    <div class="rec-item">
+                        <div class="text">
+                            <div class="title">オススメ２</div>
+                            <div class="price">価格：<span>3800円</span></div>
+                        </div>
+                        <div class="image"><img src="image/rec-02.jpg" alt=""></div>
+                    </div>
+                    <div class="rec-item">
+                        <div class="text">
+                            <div class="title">オススメ３</div>
+                            <div class="price">価格：<span>2500円</span></div>
+                        </div>
+                        <div class="image"><img src="image/rec-03.jpg" alt=""></div>
+                    </div>
+                    <div class="rec-item">
+                        <div class="text">
+                            <div class="title">オススメ４</div>
+                            <div class="price">価格：<span>5800円</span></div>
+                        </div>
+                        <div class="image"><img src="image/rec-04.jpg" alt=""></div>
+                    </div>
+                    <div class="rec-item">
+                        <div class="text">
+                            <div class="title">オススメ５</div>
+                            <div class="price">価格：<span>3500円</span></div>
+                        </div>
+                        <div class="image"><img src="image/rec-05.jpg" alt=""></div>
+                    </div>
+                </div>
+          </div>
+      </div>
+  </section>
+
+<!--ブログ-->
+      <section>
+        <div class="blog cmn-section -black wow animate__animated animate__fadeIn">
+            <h2 class="cmn-title">
+                <span class="main">ブログ</span>
+                <span class="sub">blog</span>
+            </h2>
+            <div class="blog-contents">
+                <div class="blog-cont">
+                    <dl class="blog-list">
+                      <div class="row">
+                        <dt>お知らせ</dt>
+                        <dd><a href="#">テキストテキストテキストテキストテキストテキストテキストテキスト</a></dd>
+                      </div>
+                      <div class="row">
+                        <dt>お知らせ</dt>
+                        <dd><a href="#">テキストテキストテキストテキストテキストテキストテキストテキスト</a></dd>
+                      </div>
+                      <div class="row">
+                        <dt>お知らせ</dt>
+                        <dd><a href="#">テキストテキストテキストテキストテキストテキストテキストテキスト</a></dd>
+                      </div>
+                      <div class="row">
+                        <dt>お知らせ</dt>
+                        <dd><a href="#">テキストテキストテキストテキストテキストテキストテキストテキスト</a></dd>
+                      </div>
+                      <div class="row">
+                        <dt>イベント</dt>
+                        <dd><a href="#">テキストテキストテキストテキストテキストテキストテキストテキスト</a></dd>
+                      </div>
+                    </dl>
+                    <div class="button blog-link"><a href="#">もっと見る</a></div>
+                  </div>
+              </div>
+        </div>
+      </section>
+
+
+      <section>
+        <div class="faq cmn-section -black">
+            <h2 class="cmn-title">
+                <span class="main">よくある質問</span>
+                <span class="sub -faq">faq</span>
+            </h2>
+          <div class="faq-cont fadeUpTrigger">
+              <ul class="faq-list">
+                  <li class="faq-item">
+                    <a href="javascript:void(0)" class="question js-accordion"><p>Q. アコーディオンアコーディオンアコーディオン</p></a>
+                    <div class="answer"><p>A. アコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープン</p></div>
+                  </li>
+                  <li class="faq-item">
+                    <a href="javascript:void(0)" class="question js-accordion"><p>Q. アコーディオンアコーディオンアコーディオン</p></a>
+                    <div class="answer"><p>A. アコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープン</p></div>
+                  </li>
+                  <li class="faq-item">
+                    <a href="javascript:void(0)" class="question js-accordion"><p>Q. アコーディオンアコーディオンアコーディオン</p></a>
+                    <div class="answer"><p>A. アコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープン</p></div>
+                  </li>
+                  <li class="faq-item">
+                    <a href="javascript:void(0)" class="question js-accordion"><p>Q. アコーディオンアコーディオンアコーディオン</p></a>
+                    <div class="answer"><p>A. アコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープンアコーディオンオープン</p></div>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="map-wrap cmn-section -black">
+          <h2 class="cmn-title">
+            <span class="main">アクセス</span>
+            <span class="sub -faq">access</span>
+          </h2>
+          <div class="map">
+            <p>〒XXX-XXXX 東京都XX区XX</p>
+            <p>東京駅丸の内北口徒歩5分</p>
+            <div class="map-item"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.216122023404!2d139.7610373663024!3d35.684185643528046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c081a2aaae3%3A0x951d0cebb41f52a9!2z44CSMTAwLTAwMDUg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65Li444Gu5YaF77yR5LiB55uu77yR!5e0!3m2!1sja!2sjp!4v1621146387455!5m2!1sja!2sjp" width="70%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-wrap">
+        <ul class="footer-list">
+          <li class="footer-item"><a href="#">利用規約</a></li>
+          <li class="footer-item"><a href="#">プライバシーポリシー</a></li>
+          <li class="footer-item"><a href="#">個人商取引法に基づく表記</a></li>
+          <li class="footer-item"><a href="#">お問い合わせ</a></li>
+        </ul>
+        <h1 class="footer-logo">
+          <img src="image/sample_logo.png" alt="サンプルロゴ" />
+        </h1>
+        <div class="copyright">
+          <p>Copyright (c) 2021 サンプル All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--slick-->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
